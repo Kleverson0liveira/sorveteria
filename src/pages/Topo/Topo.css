@@ -1,0 +1,22 @@
+header{
+    background-color:#F9DB79;
+    min-width: 100vw;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+.topo{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 20px;
+    background-color:#F9DB79;
+    
+}
+.topo-logo{
+    width: 100px;
+    height: 100px;
+}

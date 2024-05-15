@@ -1,0 +1,40 @@
+.saboresBaner{
+    width: 100%;
+}
+.saboresProdutos{ 
+    padding: 100px 20px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.saboresSecao{
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cardSabor{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 2px 2px 15px 2px;
+}
+.cardSabor h3{
+    font-size: 18px;
+}
+.cardSabor p{
+    font-size: 16px;
+}
+.cardSabor img{
+   width: 100%;
+   height: 150px;
+}

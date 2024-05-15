@@ -1,0 +1,36 @@
+.secaoSobre, .sobre{
+    background: #fff;
+}
+.secaoSobre{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+    gap: 30px;
+}
+.secaoSobre h2{
+    font-size: 32px;
+}
+.secaoSobre span{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+.secaoSobre p{
+    font-size: 16px;
+}
+.sobreImagens{
+    width: 100vw;
+    display: flex;
+}
+.sobreImagens div{
+    width: 50%;
+    display: flex;
+}
+.sobreImagens img{
+    width: 100%;
+}
